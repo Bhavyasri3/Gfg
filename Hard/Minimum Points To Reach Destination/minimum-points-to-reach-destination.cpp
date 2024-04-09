@@ -4,7 +4,6 @@ using namespace std;
 
 // } Driver Code Ends
 
-
 class Solution
 {
 public:
@@ -29,7 +28,6 @@ public:
         return abs(val) + 1;
     }
 };
-
 
 //{ Driver Code Starts.
 int main() 
