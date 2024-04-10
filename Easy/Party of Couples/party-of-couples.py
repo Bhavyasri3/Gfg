@@ -12,7 +12,6 @@ class Solution:
         for i,j in d.items():
             if j%2==1:
                 return i
-        
 
 
 #{ 
