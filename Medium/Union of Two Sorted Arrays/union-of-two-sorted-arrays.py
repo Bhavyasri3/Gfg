@@ -3,7 +3,10 @@
 class Solution:
     
     #Function to return a list containing the union of the two arrays.
+    
+        
     def findUnion(self,arr1,arr2,n,m):
+        
         l=[]
         d={}
         for i in arr1:
@@ -20,7 +23,6 @@ class Solution:
             l.append(i)
         l.sort()
         return l
-            
         '''
         :param a: given sorted array a
         :param n: size of sorted array a
